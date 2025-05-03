@@ -365,7 +365,7 @@ Note que ainda estão faltando alguns atributos da classe, ou linhas da nossa ta
 
 # 8. Alembic
 
-Para facilitar a criação da tabela `produto_movimentacao.py` no banco de dados, vamos utilizar a biblioteca Alembic q
+Para facilitar a criação da tabela `produto_movimentacao.py` no banco de dados, vamos utilizar a biblioteca Alembic
 
 Primeiro, instale e inicie a biblioteca no diretório raiz da aplicação:
 
