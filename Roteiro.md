@@ -361,11 +361,11 @@ class Movimentacao(Base):
 
 ```
 
-Note que ainda estão faltando alguns atributos da classe, ou linhas da nossa tabela, a serem implementados. Seguindo o exemplo acima, preencha os atributos que estão faltando. Caso tenha alguma dúvida, sinta-se à vontade para consultar a [documentação](https://docs.sqlalchemy.org/en/20/orm/declarative_tables.html#orm-declarative-table), mas se desafie a fazer sem consultar.
+Note que ainda estão faltando alguns atributos da classe, ou linhas da nossa tabela a serem implementados. Seguindo o exemplo acima, preencha os atributos que estão faltando.
 
 # 8. Alembic
 
-Para facilitar a criação da tabela `produto_movimentacao.py` no banco de dados, vamos utilizar a biblioteca Alembic
+Para facilitar a criação da tabela `produto_movimentacao.py` no banco de dados vamos utilizar a biblioteca Alembic
 
 Primeiro, instale e inicie a biblioteca no diretório raiz da aplicação:
 
@@ -472,14 +472,14 @@ class SaldoProduto(BaseModel):
 
 # 10. Executando
 
-como ja adicionamos as funções no arquivo produto_movimentacao.py no topico Routers, podemos executar o projeto para verificar as suas funcionalodades. Utilizando o comando para comecar a execução do projeto:
+Como já adicionamos as funções no arquivo produto_movimentacao.py no topico Routers, podemos executar o projeto para verificar as suas funcionalodades. Utilizando o comando para comecar a execução do projeto:
 
 ```bash
 fastapi dev app/main.py
 ```
 
 
-caso o projeto nao tenha a iniciação correta, verifique se o  ambiente virtual do python ativo, para isso, use o comando baixo para ativar o `venv` antes de chamar o `fastapi`:
+caso o projeto não tenha a iniciação correta, verifique se o  ambiente virtual do python ativo, para isso, use o comando baixo para ativar o `venv` antes de chamar o `fastapi`:
 
 ```bash
 source .venv/bin/activate
